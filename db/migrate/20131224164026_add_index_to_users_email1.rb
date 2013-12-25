@@ -1,4 +1,4 @@
-class AddIndexToUsersEmail < ActiveRecord::Migration
+class AddIndexToUsersEmail1 < ActiveRecord::Migration
   def change
     add_index :users, :email, unique: true
   end
